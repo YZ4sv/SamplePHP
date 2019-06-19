@@ -9,5 +9,10 @@
         "codeception/codeception": "^3.0"
 
     },
-    "description": "Sample project"
+    "description": "Sample project",
+    "autoload": {
+        "psr-4": {
+            "myNamespace\\": "myNamespace/"
+        }
+    }
 }
